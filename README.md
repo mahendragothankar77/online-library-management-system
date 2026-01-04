@@ -1,13 +1,13 @@
-# ?? Online Library Management System (Spring Boot)
+# Online Library Management System (Spring Boot)
 
 A **real-world Online Library Management System** built using **Spring Boot**, **Spring Security**, **JPA (Hibernate)**, and **MySQL**.  
 This project supports **role-based access (ADMIN & USER)**, **book issuing & returning with fine calculation**, **membership validation**, and **reporting APIs**.
 
 ---
 
-## ?? Features
+## Features
 
-### ?? Authentication & Authorization
+## Authentication & Authorization
 - User Registration & Login
 - Role-based access using Spring Security
   - **ADMIN**
@@ -17,7 +17,7 @@ This project supports **role-based access (ADMIN & USER)**, **book issuing & ret
 
 ---
 
-### ?? User Management
+## User Management
 - Register new users with membership duration
 - Automatic membership start & expiry dates
 - Membership validity check before issuing books
@@ -27,7 +27,7 @@ This project supports **role-based access (ADMIN & USER)**, **book issuing & ret
 
 ---
 
-### ?? Book Management
+## Book Management
 - Add books (ADMIN only)
 - View books by:
   - Category
@@ -39,7 +39,7 @@ This project supports **role-based access (ADMIN & USER)**, **book issuing & ret
 
 ---
 
-### ?? Book Issue & Return
+## Book Issue & Return
 - Issue book for specific number of days
 - Prevent issuing when:
   - Membership is expired
@@ -51,14 +51,14 @@ This project supports **role-based access (ADMIN & USER)**, **book issuing & ret
 
 ---
 
-### ?? Reporting
+## Reporting
 - Category-wise book usage report
 - Percentage of books read per category
 - Admin-only access for reports
 
 ---
 
-## ?? Tech Stack
+## Tech Stack
 
 | Layer        | Technology |
 |--------------|------------|
@@ -76,7 +76,7 @@ This project supports **role-based access (ADMIN & USER)**, **book issuing & ret
 
 ---
 
-## ?? Roles & Access Rules
+## Roles & Access Rules
 
 | API | Access |
 |----|-------|
@@ -88,9 +88,9 @@ This project supports **role-based access (ADMIN & USER)**, **book issuing & ret
 
 ---
 
-## ?? Configuration
+## Configuration
 
-### application.properties
+## application.properties
 
 ```properties
 server.port=8888
@@ -104,7 +104,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 
-????? Author
+Author
 
 Mahendra Gothankar
 
